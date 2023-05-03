@@ -1,19 +1,3 @@
 # umairqazi
 
-```flow
-st=>start: Start
-op1=>operation: Understands the Design
-cond=>condition: All good?
-para=>parallel: Discussions with Client/Designer
-op2=>operation: Implement code in Required Stack
-op3=>operation: Submit to Client/PM
-condRevisions=>condition: Bug Free?
-para2=>parallel: Do Revsions
-e=>end: End
-
-st->op1->cond
-cond(no)->para(path1, top)->op1
-cond(yes)->op2->op3->condRevisions
-condRevisions(no)->para2(path1, top)->op3
-condRevisions(yes)->e
-```
+[![](https://mermaid.ink/img/pako:eNpVUctuwjAQ_JWVL72Aes-hFSQEkIpUlV4qh4OxF2IR26kfRSjh32viUBWf7PE8drQd4UYgycihMWdeM-vhs6g0xDOjWx_fO5hOX2BOC3TyqHfpbz6AeTdrGlgaI16vCc8HvF8_KeBGH4JD0UNBC-l4cE4a7eAsfQ15I1H75-SJdnQtkjpvkFnwNY4eN1kP84eEL4zQgq5V26CKVnCrAVLDB34HaVFAHJ6fRuPFICrpNuyV9OAN8DTA-2ZklANj2c30BUpEsY_ie6nlv8gVLUzM-JHDVKN4lQh_MPRQPkjzexpIBzVr20sPa_pmjrAywbodmRCFVjEp4ia6m7Qisb_CimTxKpg9VaTS18hjwZvtRXOSeRtwQkIrmMdCsqNlimQH1riIopDe2E1a7bDh6y9uNJyN?type=png)](https://mermaid.live/edit#pako:eNpVUctuwjAQ_JWVL72Aes-hFSQEkIpUlV4qh4OxF2IR26kfRSjh32viUBWf7PE8drQd4UYgycihMWdeM-vhs6g0xDOjWx_fO5hOX2BOC3TyqHfpbz6AeTdrGlgaI16vCc8HvF8_KeBGH4JD0UNBC-l4cE4a7eAsfQ15I1H75-SJdnQtkjpvkFnwNY4eN1kP84eEL4zQgq5V26CKVnCrAVLDB34HaVFAHJ6fRuPFICrpNuyV9OAN8DTA-2ZklANj2c30BUpEsY_ie6nlv8gVLUzM-JHDVKN4lQh_MPRQPkjzexpIBzVr20sPa_pmjrAywbodmRCFVjEp4ia6m7Qisb_CimTxKpg9VaTS18hjwZvtRXOSeRtwQkIrmMdCsqNlimQH1riIopDe2E1a7bDh6y9uNJyN)
