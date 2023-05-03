@@ -1,4 +1,4 @@
-# umairqazi
+# Umair Qazi
 
 ```mermaid
 flowchart TD
